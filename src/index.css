@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* HEADER */
+
+
+
+
+/* HERO */
+
+.hero {
+  background-image: url(./assets/images/Mandel_zoom_00_mandelbrot_set.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero-content {
+  width: 35%;
+  padding-top: 40px;
+  padding-bottom: 160px;
+  text-align: center;
+  margin-left: 0;
+}
+
+
+
+
+
+
+.bcolor {
+  color: #256EC1;
+}
+.borderBColor {
+  border-color: 3px #256EC1;
+  border-width: medium;
+}
